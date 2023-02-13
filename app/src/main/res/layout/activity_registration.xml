@@ -7,15 +7,15 @@
         android:background="#F5F4F0"
         tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="90dp"
-            android:text="REGISTER"
-            android:textSize="40sp"
-            android:textAlignment="center"
-            />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-medium" />
 
 
         <RelativeLayout
@@ -35,7 +35,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="30dp"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                app:fontFamily="sans-serif-medium" >
             </EditText>
             <EditText
                 android:id="@+id/PASSWORD"
@@ -47,7 +48,8 @@
                 android:layout_below="@+id/EMAIL"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginBottom="30dp">
+                android:layout_marginBottom="30dp"
+                app:fontFamily="sans-serif-medium" >
             </EditText>
             <EditText
                 android:id="@+id/PASSWORD2"
@@ -59,7 +61,8 @@
                 android:layout_below="@+id/PASSWORD"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginBottom="30dp">
+                android:layout_marginBottom="30dp"
+                app:fontFamily="sans-serif-medium" >
             </EditText>
 
             <Button
@@ -75,7 +78,8 @@
                 android:paddingRight="30dp"
                 android:paddingBottom="20dp"
                 android:text="REGISTER"
-                android:textSize="16sp">
+                android:textSize="16sp"
+                app:fontFamily="sans-serif-medium" >
 
             </Button>
 

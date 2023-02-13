@@ -13,9 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
         android:text="Login"
-        android:textSize="40sp"
         android:textAlignment="center"
-        />
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-medium" />
 
 
     <RelativeLayout
@@ -35,7 +35,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="30dp"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="30dp"
+            app:fontFamily="sans-serif-medium" >
         </EditText>
         <EditText
             android:id="@+id/PASSWORD"
@@ -47,7 +48,8 @@
             android:layout_below="@+id/EMAIL"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginBottom="30dp">
+            android:layout_marginBottom="30dp"
+            app:fontFamily="sans-serif-medium" >
         </EditText>
 
         <Button
@@ -63,6 +65,8 @@
             android:paddingRight="30dp"
             android:paddingBottom="20dp"
             android:text="login"
+            android:fontFamily="arial"
+            app:fontFamily="sans-serif-medium"
             android:textSize="16sp">
 
         </Button>
